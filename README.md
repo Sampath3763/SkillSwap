@@ -1,4 +1,4 @@
-# SkillSwap - Separated for Deployment ✅
+# SkillSwap 
 
 ### 📁 Project Structure
 ```
