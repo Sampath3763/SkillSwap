@@ -1,8 +1,4 @@
-# SkillSwap - Separated for Deployment ✅
-
-## ✨ What Changed
-
-Your project has been reorganized into two separate, deployable folders:
+# SkillSwap 
 
 ### 📁 Project Structure
 ```
@@ -38,9 +34,7 @@ SkillSwap/
 └── README.md          # 📄 This file
 ```
 
-## 🚀 Next Steps
-
-### Test Locally
+## Run the project
 
 1. **Backend**
 ```powershell
@@ -57,72 +51,5 @@ npm install
 npm run dev
 ```
 
-### Deploy to Production
 
-**Backend → Render**
-- Root directory: `backend`
-- Build: `npm install && npm run build`
-- Start: `npm start`
 
-**Frontend → Vercel**
-- Root directory: `frontend`
-- Build: `npm run build`
-- Output: `dist`
-
-## 📚 Documentation
-
-- **QUICKSTART.md** - Fast deployment guide
-- **DEPLOYMENT.md** - Detailed deployment instructions
-- **backend/README.md** - Backend API documentation
-- **frontend/README.md** - Frontend app documentation
-
-## ✅ Ready for Deployment
-
-Both folders are now:
-- ✓ Completely independent
-- ✓ Have their own package.json
-- ✓ Have proper build scripts
-- ✓ Include environment examples
-- ✓ Ready for Git deployment
-
-## 🔧 What Was Copied
-
-**Backend (`backend/src/`)**
-- All server code from `server/`
-- Shared types/schemas from `shared/`
-- Environment configuration
-- MongoDB connection logic
-
-**Frontend (`frontend/src/`)**
-- All React code from `client/src/`
-- UI components
-- Hooks and utilities
-- Pages and routing
-- Build configuration
-
-## 💡 Tips
-
-1. Keep the original `server/`, `client/`, `shared/` folders as backup
-2. Test both separately before deploying
-3. Update environment variables for production
-4. Configure CORS properly after deployment
-5. Use free tiers: Render (backend) + Vercel (frontend) + MongoDB Atlas (database)
-
-## 🎯 Deployment Flow
-
-```
-1. Push to GitHub
-   ↓
-2. Deploy Backend (Render)
-   - Get backend URL
-   ↓
-3. Deploy Frontend (Vercel)
-   - Set VITE_API_URL to backend
-   ↓
-4. Update Backend CORS
-   - Set CLIENT_URL to frontend
-   ↓
-5. ✅ Done!
-```
-
-Happy Deploying! 🚀
