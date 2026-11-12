@@ -1,0 +1,30 @@
+{
+  "name": "skillswap-server",
+  "version": "1.0.0",
+  "description": "SkillSwap - Non-monetary local skill exchange platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@clerk/express": "^2.1.84",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.0.0",
+    "uuid": "^9.0.0"
+  },
+  "keywords": [
+    "skill-exchange",
+    "non-monetary",
+    "community"
+  ]
+}
